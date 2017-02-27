@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="165.0" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pruebass.FXMLDocumentController">
+    <children>
+        <Button fx:id="calcularLetra" layoutX="128.0" layoutY="108.0" onAction="#handleButtonAction" text="Calcular letra" />
+      <TextField fx:id="intDNI" layoutX="128.0" layoutY="22.0" />
+      <Label layoutX="25.0" layoutY="26.0" text="Introduce el DNI" />
+      <Label layoutX="25.0" layoutY="64.0" text="Letra del DNI" />
+      <TextField fx:id="letraDNI" layoutX="128.0" layoutY="60.0" />
+    </children>
+</AnchorPane>
